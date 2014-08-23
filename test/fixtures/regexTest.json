@@ -1,0 +1,14 @@
+[
+    {
+        "find": true,
+        "subject": "mhor@gmail.com"
+    },
+    {
+        "find": false,
+        "subject": "mhor@gmail"
+    },
+    {
+        "find": false,
+        "subject": "regular@mail.com"
+    }
+]

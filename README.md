@@ -1,4 +1,4 @@
-#Regex Tester [![Build Status](https://travis-ci.org/mhor/regex-tester.svg?branch=master)](https://travis-ci.org/mhor/regex-tester) [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/mhor/regex-tester/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/mhor/regex-tester/?branch=master) [![Code Coverage](https://scrutinizer-ci.com/g/mhor/regex-tester/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/mhor/regex-tester/?branch=master)
+#Regex Tester [![Build Status](https://travis-ci.org/mhor/regex-tester.svg?branch=master)](https://travis-ci.org/mhor/regex-tester) [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/mhor/regex-tester/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/mhor/regex-tester/?branch=master) [![Coverage Status](https://coveralls.io/repos/mhor/regex-tester/badge.png?branch=master)](https://coveralls.io/r/mhor/regex-tester?branch=master)
 
 
 ##Configuration file example

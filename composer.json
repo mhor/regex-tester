@@ -15,7 +15,9 @@
         "symfony/process": "~2.3"
     },
     "require-dev": {
-        "phpunit/phpunit": "@stable"
+        "phpunit/phpunit": "@stable",
+        "squizlabs/php_codesniffer": "@stable",
+        "satooshi/php-coveralls": "dev-master"
     },
     "autoload": {
         "psr-0": { "" : "src/" }

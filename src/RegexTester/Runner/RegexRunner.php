@@ -1,8 +1,6 @@
 <?php
 
-
 namespace RegexTester\Runner;
-
 
 abstract class RegexRunner
 {
@@ -11,9 +9,8 @@ abstract class RegexRunner
     /**
      * @param string $regex
      */
-    public function  __construct($regex)
+    public function __construct($regex)
     {
         $this->regex = $regex;
     }
 }
- 

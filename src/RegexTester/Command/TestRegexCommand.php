@@ -2,7 +2,6 @@
 
 namespace RegexTester\Command;
 
-use RegexTester\Runner\LinuxRegexRunner;
 use RegexTester\Runner\PhpRegexRunner;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputArgument;
@@ -34,7 +33,7 @@ class TestRegexCommand extends Command
     }
 
     /**
-     * @param  InputInterface $input
+     * @param  InputInterface  $input
      * @param  OutputInterface $output
      * @return int
      */
@@ -61,6 +60,7 @@ class TestRegexCommand extends Command
             }
             $output->writeln('<fg=' . $markup . '>' . $subject['subject'] . '</fg=' . $markup . '>');
         }
+
         return 0;
     }
 }

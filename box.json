@@ -1,0 +1,23 @@
+{
+    "output": "regex-tester.phar",
+    "chmod": "0755",
+    "directories": ["src", "bin"],
+    "compactors": [
+        "Herrera\\Box\\Compactor\\Php"
+    ],
+    "extract": false,
+    "files": [
+        "LICENSE"
+    ],
+    "finder": [
+        {
+            "name": ["*.php"],
+            "exclude": ["Tests", "tests", "test", "*Test.php", "phpunit", "satooshi"],
+            "in": ["vendor"]
+        }
+    ],
+    "main": "bin/regex-tester",
+    "git-commit": "git-commit",
+    "stub": "bin/phar-stub.php",
+    "web": false
+}
